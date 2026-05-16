@@ -4,6 +4,7 @@ start_session();
 session_security_check();
 require_once '../config/db.php';
 
+
 $msg = $_GET['msg'] ?? '';
 $flash_map = [
     'login_required' => ['type' => 'error',  'text' => 'Please log in to access that page.'],
