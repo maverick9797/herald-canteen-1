@@ -14,6 +14,7 @@ function sanitize_input($data) {
     return $data;
 }
 
+
 // Helper function for validating and sanitizing text with max length
 function validate_text($input, $field_name, $max_length, &$errors, $required = true) {
     $cleaned = trim($input);
