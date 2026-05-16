@@ -5,6 +5,7 @@ session_security_check();
 require_once '../config/db.php';
 require_once '../includes/payment_helpers.php';
 
+
 // Must be logged in as customer
 if (empty($_SESSION['user_id'])) {
     header('Location: portal-login.php');
