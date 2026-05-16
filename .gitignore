@@ -1,0 +1,16 @@
+# Real SMTP credentials — never commit
+config/mail_config.php
+
+# Dev email log — may contain OTP codes (dev only)
+logs/mail_dev.log
+logs/*.log
+
+# Composer vendor directory
+vendor/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+config/secrets.php

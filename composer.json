@@ -1,0 +1,10 @@
+{
+    "name": "herald-canteen/portal",
+    "description": "Herald Canteen food ordering system",
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    }
+}
